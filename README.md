@@ -24,7 +24,7 @@ A continuaci&oacute;n, la lista de componentes involucrados:
 ### Front End
 Para el Front End, se utiliza la especificacion OpenAPI de documentación y utilización de servicios Web RESTful, tambien conocida como Swagger.
 
-## Back End
+### Back End
 En el Back End encontramos un conjunto de Microservicios con los siguientes patrones:
 - Patr&oacute;n de diseño BFF-Backend for Frontend, permitiendo considerar que el acceso a nuestros microservicios se realizan desde clientes especificos<BR> y con necesidades especificas, eliminando acoplamiento entre clientes diferentes
 con casos de uso particulares.
@@ -34,6 +34,6 @@ e Inyección de Dependencias, obteniendo alta cohesión y bajo acoplamiento.
 Se destacan las implementaciones de Elasticsearch+Kibana, como motor de busqueda de texto y visualización de datos, Health Checks para validar el estado<BR> de los microservicios y sus dependencias;
 todo bajo buenas pr&aacute;cticas de DevOps.
 
-## Entidad externa
+### Entidad externa
 En la Entidad Externa se encuentra el proveedor de servicios para env&iacute;o de SMS, que cumple con esa responsabilidad.
 
