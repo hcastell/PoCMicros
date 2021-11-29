@@ -21,7 +21,7 @@ La Solucion para la PoC, esta diseñada para emular un envio de mensaje a traves
 para validaci&oacute;n del n&uacute;mero de tel&eacute;fono celular y control de fraude, entre otros.
 A continuaci&oacute;n, la lista de componentes involucrados:
 
-##Front End
+###Front End
 Para el Front End, se utiliza la especificacion OpenAPI de documentación y utilización de servicios Web RESTful, tambien conocida como Swagger.
 
 ##Back End
